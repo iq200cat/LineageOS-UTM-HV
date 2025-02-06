@@ -23,4 +23,18 @@ If you don't own one of these then please stop trying right here
 9. flash the android OTA zip
 10. done
 
+# NOTES
+Running android on it then would probably be rather funny
+
+You're a bit limited on ram but most things should just work fine 
+
+One issue we still have; which is why this isn't widespread yet;;
+There's an issue with the graphics on mobile.
+- Using software rendering works but the color space is shifted towards green/red
+- Using ANGLE (OpenGL) rendering works but there's a memory leak and as a result the vm will crash within a minute each time 
+- Using ANGLE (Metal) causes an issue with something in the renderer and just has no display output
+- 3D accelerator/GPU supoorted cause utm crash, that's the known issues which we have no solution yet...
+
+#link
 https://wiki.lineageos.org/libvirt-qemu#install-lineageos-to-the-virtual-machine
+https://getutm.app/
