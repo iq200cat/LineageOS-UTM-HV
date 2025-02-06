@@ -36,5 +36,5 @@ There's an issue with the graphics on mobile.
 - 3D accelerator/GPU supoorted cause utm crash, that's the known issues which we have no solution yet...
 
 # link
-Wiki [LineageOS WIKI](https://wiki.lineageos.org/libvirt-qemu#install-lineageos-to-the-virtual-machine)
+Wiki [LineageOS wiki](https://wiki.lineageos.org/libvirt-qemu#install-lineageos-to-the-virtual-machine)<br/>
 Grab UTM apps [UTMapp](https://getutm.app/)
