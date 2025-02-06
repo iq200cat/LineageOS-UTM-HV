@@ -38,6 +38,7 @@ There's an issue with the graphics on mobile.
 - 3D accelerator/GPU supoorted cause utm crash, that's the known issues which we have no solution yet...
 
 # SCREENSHOOT
+<img src="[IMG_LINK](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/bootloader.png)" width="50" height="50"/>
 ![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/bootloader.png)
 <br>
 ![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/recovety.png)
