@@ -35,6 +35,6 @@ There's an issue with the graphics on mobile.
 - Using ANGLE (Metal) causes an issue with something in the renderer and just has no display output
 - 3D accelerator/GPU supoorted cause utm crash, that's the known issues which we have no solution yet...
 
-#link
+# link
 https://wiki.lineageos.org/libvirt-qemu#install-lineageos-to-the-virtual-machine
 https://getutm.app/
