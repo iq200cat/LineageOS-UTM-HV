@@ -37,4 +37,4 @@ There's an issue with the graphics on mobile.
 
 # link
 https://wiki.lineageos.org/libvirt-qemu#install-lineageos-to-the-virtual-machine
-https://getutm.app/
+Grab UTM apps [UTMapp](https://getutm.app/)
