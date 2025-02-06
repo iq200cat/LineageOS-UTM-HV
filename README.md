@@ -38,17 +38,9 @@ There's an issue with the graphics on mobile.
 - 3D accelerator/GPU supoorted cause utm crash, that's the known issues which we have no solution yet...
 
 # SCREENSHOOT
-<img src="https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/bootloader.png" alt="Alt text" width="100" height="200"/>
 
-![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/bootloader.png)
+![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/3c80c0625adc42fd255aa8b86954a99d630e081d/img/ss.png)
 <br>
-![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/recovety.png)
-<br>
-![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/about%20Ln.png)
-<br>
-![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/magisk.PNG)
-<br>
-![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/switcherpng.PNG)
 
 # link
 Wiki [LineageOS wiki](https://wiki.lineageos.org/libvirt-qemu#install-lineageos-to-the-virtual-machine)<br/>
