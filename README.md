@@ -1,5 +1,6 @@
 # LINEAGEOS 22.1 UTM/QEMU ARM
 ## this project image maintener by 0xCAFEBABE as lineageOS builder
+<br>
 ![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/e060cfb31ff9aece3ce350fa1a0b5e847fd9f6ee/img/about%20Ln.png)
 
 i just try to install this OS using UTM HV mode on iphone 14 pm 16.3.1 with hypervisor work on this ios version
@@ -35,6 +36,17 @@ There's an issue with the graphics on mobile.
 - Using ANGLE (OpenGL) rendering works but there's a memory leak and as a result the vm will crash within a minute each time 
 - Using ANGLE (Metal) causes an issue with something in the renderer and just has no display output
 - 3D accelerator/GPU supoorted cause utm crash, that's the known issues which we have no solution yet...
+
+# SCREENSHOOT
+![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/bootloader.png)
+<br>
+![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/recovety.png)
+<br>
+![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/about%20Ln.png)
+<br>
+![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/magisk.PNG)
+<br>
+![alt text](https://github.com/cupecups/LineageOS-UTM-HV/blob/d3c54c8bbf76673e413b41c9083b78e86b874007/img/switcherpng.PNG)
 
 # link
 Wiki [LineageOS wiki](https://wiki.lineageos.org/libvirt-qemu#install-lineageos-to-the-virtual-machine)<br/>
