@@ -48,5 +48,5 @@ There's an issue with the graphics on mobile.
 
 # link
 Youtube [showcase](https://www.youtube.com/watch?v=0CWcrkZ6nPc)<br>
-Wiki [LineageOS wiki](https://wiki.lineageos.org/libvirt-qemu#install-lineageos-to-the-virtual-machine)<br/>
+Wiki [LineageOS wiki](https://wiki.lineageos.org/utm-vm-on-apple-silicon-mac)<br/>
 Grab UTM apps [UTMapp](https://getutm.app/)
