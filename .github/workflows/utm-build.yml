@@ -38,7 +38,7 @@ jobs:
 
       # 成果物アップロード
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: LineageOS-UTM
           path: |
