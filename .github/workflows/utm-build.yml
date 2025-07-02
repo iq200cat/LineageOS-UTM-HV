@@ -1,0 +1,45 @@
+name: Build-UTM-HV
+on:
+  workflow_dispatch:  # ← 手動で走らせる
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 依存パッケージ
+      - name: Install repo & JDK
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y openjdk-17-jdk repo qemu-utils git-lfs
+
+      # Android ソース同期（必要最小限）
+      - name: Sync AOSP
+        run: |
+          mkdir ~/android && cd ~/android
+          repo init -u https://github.com/LineageOS/android.git -b lineage-23.0 -c --no-clone-bundle
+          repo sync -j4
+
+      # HV パッチ取得
+      - name: Apply HV patch
+        run: |
+          cd ~/android
+          git clone https://github.com/cupecups/LineageOS-UTM-HV device/patches
+          device/patches/apply.sh
+
+      # ビルド
+      - name: Build system image
+        run: |
+          cd ~/android
+          source build/envsetup.sh
+          lunch lineage_gsi_arm64-userdebug
+          mka vm-utm-zip
+
+      # 成果物アップロード
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: LineageOS-UTM
+          path: |
+            ~/android/out/target/product/gsi_arm64/VirtualMachine/UTM/*.zip
